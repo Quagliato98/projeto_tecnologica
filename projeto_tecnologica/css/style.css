@@ -29,6 +29,11 @@ h3 {
     padding: 5px;
 }
 
+.post, .content-right, #footer, .img-post{
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Header */
 
 #header {
@@ -50,6 +55,7 @@ h3 {
 #header a:visited {
     color: #ffffff;
     padding: 8px 12px;
+    border-radius: 5px;
 }
 
 #header a:hover {
