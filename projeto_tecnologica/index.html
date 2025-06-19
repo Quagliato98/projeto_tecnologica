@@ -1,94 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>TecnoLógica - Tudo sobre tecnologia</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TecnoLógica - Tudo sobre tecnologia</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
+  <body>
+    <!-- Skip link -->
+    <a href="#content" class="skip-link">Pular para o conteúdo</a>
 
-    <body>
-        <div id="header">
-            <div id="logo">
-                <h1>Tecno<span class="white">Lógica</span></h1>
-            </div>
+    <header id="header" role="banner">
+      <div id="logo">
+        <h1>Tecno<span class="white">Lógica</span></h1>
+      </div>
 
-            <div id="menu">
-                <a href="index.html">Home</a>
-                <a href="jogos.html">Jogos</a>
-                <a href="smartphones.html">Smartphones</a>
-            </div>
-        </div>
+      <nav id="menu" role="navigation">
+        <a href="index.html" class="active" aria-current="page">Home</a>
+        <a href="jogos.html">Jogos</a>
+        <a href="smartphones.html">Smartphones</a>
+      </nav>
+    </header>
 
-        <div id="content">
-            <div id="posts">
-                <!-- abertura postagem -->
-                <div class="post">
-                    <h2>Titulo da postagem 1</h2>
-                    <span class="data-post">postado 19 junho de 2025</span>
-                    <img class="img-post" src="imagens/tecnologia01.png" />
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nunc et scelerisque quam. Class aptent taciti sociosqu
-                        ad litora torquent per conubia nostra, per inceptos
-                        himenaeos. Praesent nulla turpis, gravida at nunc eu,
-                        luctus aliquam justo. Praesent eget risus vehicula
-                    </p>
-                    <a href="">Leia mais</a>
-                </div>
-                <!--fechamento postagem -->
+    <main id="content" role="main">
+      <section id="posts">
+        <article class="post">
+          <h2>As principais tendências tecnológicas de 2025</h2>
+          <span class="data-post">postado 19 junho de 2025</span>
+          <img
+            class="img-post"
+            src="imagens/tecnologia01.png"
+            alt="Notebook sobre uma mesa"
+          />
+          <p>
+            Inteligência artificial, computação quântica, realidade aumentada e
+            Internet das Coisas estão entre as inovações que prometem
+            transformar nossa forma de viver, trabalhar e se conectar. Descubra
+            como essas tendências estão moldando o futuro e o que podemos
+            esperar nos próximos anos.
+          </p>
+          <a href="#" aria-label="Leia mais sobre tendências tecnológicas">
+            Leia mais
+          </a>
+        </article>
 
-                <!-- abertura postagem -->
-                <div class="post">
-                    <h2>Titulo da postagem 2</h2>
-                    <span class="data-post">postado 18 junho de 2025</span>
-                    <img class="img-post" src="imagens/tecnologia01.png" />
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nunc et scelerisque quam. Class aptent taciti sociosqu
-                        ad litora torquent per conubia nostra, per inceptos
-                        himenaeos. Praesent nulla turpis, gravida at nunc eu,
-                        luctus aliquam justo. Praesent eget risus vehicula
-                    </p>
-                    <a href="">Leia mais</a>
-                </div>
-                <!--fechamento postagem -->
-            </div>
+        <article class="post">
+          <h2>Como a tecnologia está mudando o nosso dia a dia</h2>
+          <span class="data-post">postado 18 junho de 2025</span>
+          <img
+            class="img-post"
+            src="imagens/tecnologia02.png"
+            alt="Monitor ultra wide com uma IDE aberta"
+          />
+          <p>
+            Desde assistentes virtuais até casas inteligentes, a tecnologia está
+            cada vez mais presente em nossas rotinas. Neste artigo, veja como
+            pequenas mudanças tecnológicas têm um grande impacto no conforto,
+            segurança e produtividade das pessoas.
+          </p>
+          <a
+            href="#"
+            aria-label="Leia mais sobre como a tecnologia está mudando o dia a dia"
+          >
+            Leia mais
+          </a>
+        </article>
+      </section>
 
-            <div id="right-side">
-                <div class="content-right">
-                    <h3>Postagens recentes</h3>
+      <aside id="right-side" role="complementary">
+        <section class="content-right">
+          <h3>Postagens recentes</h3>
 
-                    <div class="post-right">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
-                        </p>
-                        <a href="">Leia mais</a>
-                    </div>
+          <div class="post-right">
+            <p>A tecnologia 6G está mais próxima do que imaginamos.</p>
+            <a href="#" aria-label="Leia mais sobre tecnologia 6G">Leia mais</a>
+          </div>
 
-                    <div class="post-right" style="border-bottom: none">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
-                        </p>
-                        <a href="">Leia mais</a>
-                    </div>
-                </div>
+          <div class="post-right" style="border-bottom: none">
+            <p>
+              Conheça os gadgets mais inovadores lançados em 2025.
+            </p>
+            <a
+              href="#"
+              aria-label="Leia mais sobre os gadgets inovadores de 2025"
+              >Leia mais</a
+            >
+          </div>
+        </section>
 
-                <div class="content-right">
-                    <h3>Categorias</h3>
+        <section class="content-right">
+          <h3>Categorias</h3>
+          <a href="index.html">🧠 Tecnologia</a><br />
+          <a href="jogos.html">🎮 Jogos</a><br />
+          <a href="smartphones.html">📱 Smartphones</a><br />
+        </section>
+      </aside>
+    </main>
 
-                    <a href="">Tecnologia</a><br />
-                    <a href="">Jogos</a><br />
-                    <a href="">Smartphones</a><br />
-                </div>
-            </div>
+    <footer id="footer" role="contentinfo">
+      Todos os direitos reservados - Andrey Quagliato 🦁 &copy; 2025
+    </footer>
 
-            <div id="footer">
-                Todos os direitos reservados - Andrey Quagliato 🦁 &copy; 2025
-            </div>
-        </div>
-    </body>
+    <script src="index.js"></script>
+  </body>
 </html>
